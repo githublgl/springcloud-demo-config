@@ -1,6 +1,13 @@
 spring: 
   application: 
-    name: springcloud-demo-config-test-dev 
+    name: springcloud-demo-config-dev 
   profiles: 
     active: 
     - dev
+
+spring: 
+  application: 
+    name: springcloud-demo-config-test 
+  profiles: 
+    active: 
+    - test
