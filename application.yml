@@ -1,0 +1,11 @@
+
+      
+spring:
+  profiles: dev
+  application:
+    name: springcloud-demo-config-dev
+    
+spring:
+  profiles: test
+  application:
+    name: springcloud-demo-config-test
