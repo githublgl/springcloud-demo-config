@@ -1,3 +1,9 @@
+
+spring: 
+  profiles:   #头文件,无符合路径时显示
+    active: 
+    - dev
+    
 --- 
 spring: 
   profiles: dev  #开发环境
